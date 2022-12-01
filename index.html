@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+
+    <!-- Responsive y estilo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo1.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:ital,wght@0,200;0,400;0,800;1,200&family=Roboto+Slab&display=swap');
+    </style>
+
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <title>Date el gusto</title>
+
+</head>
+
+<body>
+
+    <div class="cover"></div>
+
+    <header>
+        <img class="logo" src="./assets/logo.png" width="100px" height="100px" alt="Logotipo de la empresa">
+        <div>
+            <h1>Date el gusto</h1>
+            <h2>Chocolates belga artesanales</h2>
+        </div>
+        <button id="mostrarCarro"><img src="./assets/carro.png" width="40px" height="40px" alt="Carro de compras"></button>
+    </header>
+
+    <aside class="ocultar animBajar" id="carro">
+        <p id="total">Total: 0</p>
+        <button id="comprar">Comprar</button>
+        <button id="limpiar">Limpiar carro</button>
+    </aside>    
+
+    <main>
+        <h3>Productos sueltos</h3>
+        <div id="catalogoSimple"></div>
+
+        <h3>Paquetes</h3>
+        <div id="catalogoPaquete"></div>
+    </main>
+    
+<!-- Script principal -->
+<script src="./script.js"></script>
+
+<!-- //////////////Librerias////////////// -->
+<!-- Toastify -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<!-- Sweet alert -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

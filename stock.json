@@ -1,0 +1,10 @@
+[
+    {"id": 1, "nombre": "simple", "tipo": "simple", "precio": 130, "stock": 25, "img": "./assets/galeria/simple.jpg"},
+    {"id": 2, "nombre": "relleno", "tipo": "simple", "precio": 150, "stock": 0, "img": "./assets/galeria/relleno.jpg"},
+    {"id": 3, "nombre": "con topping", "tipo": "simple", "precio": 140, "stock": 13, "img": "./assets/galeria/topping.jpg"},
+    {"id": 4, "nombre": "con topping relleno", "tipo": "simple", "stock": 10, "precio": 160, "img": "./assets/galeria/topping_relleno.jpg"},
+    {"id": 5, "nombre": "mundial", "tipo": "paquete", "stock": 40, "precio": 400, "img": "./assets/galeria/mundial.jpg"},
+    {"id": 6, "nombre": "helado", "tipo": "paquete", "stock": 20, "precio": 450, "img": "./assets/galeria/helado.jpg"},
+    {"id": 7, "nombre": "bombones", "tipo": "paquete", "stock": 20, "precio": 420, "img": "./assets/galeria/bombones.jpg"},
+    {"id": 8, "nombre": "surtido", "tipo": "paquete", "stock": 25, "precio": 350, "img": "./assets/galeria/surtido.jpg"}
+]
